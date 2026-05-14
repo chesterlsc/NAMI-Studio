@@ -1,0 +1,102 @@
+<svg width="1180" height="680" viewBox="0 0 1180 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgWave" x1="40" y1="338" x2="1156" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B2653" stop-opacity="0"/>
+      <stop offset="0.34" stop-color="#3A4EA6"/>
+      <stop offset="0.76" stop-color="#6C7EFF"/>
+      <stop offset="1" stop-color="#8AA4FF"/>
+    </linearGradient>
+    <linearGradient id="cyanWave" x1="120" y1="236" x2="996" y2="262" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173452" stop-opacity="0"/>
+      <stop offset="0.32" stop-color="#4BDDCF"/>
+      <stop offset="0.56" stop-color="#92FFF0"/>
+      <stop offset="0.84" stop-color="#6EA1FF"/>
+      <stop offset="1" stop-color="#6D8EFF"/>
+    </linearGradient>
+    <linearGradient id="blueWave" x1="-20" y1="364" x2="1140" y2="182" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16254C" stop-opacity="0"/>
+      <stop offset="0.28" stop-color="#3E53C8"/>
+      <stop offset="0.56" stop-color="#5A6EFF"/>
+      <stop offset="0.82" stop-color="#7FB1FF"/>
+      <stop offset="1" stop-color="#A2C8FF"/>
+    </linearGradient>
+    <linearGradient id="coralWave" x1="404" y1="438" x2="1162" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3F2838" stop-opacity="0"/>
+      <stop offset="0.28" stop-color="#FF8A69"/>
+      <stop offset="0.62" stop-color="#FFA27B"/>
+      <stop offset="1" stop-color="#FFD1A9"/>
+    </linearGradient>
+    <filter id="cyanGlow" x="112" y="124" width="926" height="266" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="blueGlow" x="-64" y="180" width="1288" height="336" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="coralGlow" x="336" y="302" width="902" height="224" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <g opacity="0.18">
+    <path d="M-70 246C68 222 190 184 320 208C460 234 554 310 674 304C786 298 886 228 1024 154C1082 124 1134 102 1204 90" stroke="#2D397A" stroke-width="2"/>
+    <path d="M-70 262C68 238 190 200 320 224C460 250 554 326 674 320C786 314 886 244 1024 170C1082 140 1134 118 1204 106" stroke="#324286" stroke-width="2"/>
+    <path d="M-70 278C68 254 190 216 320 240C460 266 554 342 674 336C786 330 886 260 1024 186C1082 156 1134 134 1204 122" stroke="#36488E" stroke-width="2"/>
+    <path d="M-70 294C68 270 190 232 320 256C460 282 554 358 674 352C786 346 886 276 1024 202C1082 172 1134 150 1204 138" stroke="#3B4E97" stroke-width="2"/>
+    <path d="M-70 310C68 286 190 248 320 272C460 298 554 374 674 368C786 362 886 292 1024 218C1082 188 1134 166 1204 154" stroke="#4055A1" stroke-width="2"/>
+    <path d="M-70 326C68 302 190 264 320 288C460 314 554 390 674 384C786 378 886 308 1024 234C1082 204 1134 182 1204 170" stroke="#455DAB" stroke-width="2"/>
+    <path d="M-70 342C68 318 190 280 320 304C460 330 554 406 674 400C786 394 886 324 1024 250C1082 220 1134 198 1204 186" stroke="#4A65B5" stroke-width="2"/>
+    <path d="M-70 358C68 334 190 296 320 320C460 346 554 422 674 416C786 410 886 340 1024 266C1082 236 1134 214 1204 202" stroke="#4E6BC0" stroke-width="2"/>
+    <path d="M-70 374C68 350 190 312 320 336C460 362 554 438 674 432C786 426 886 356 1024 282C1082 252 1134 230 1204 218" stroke="#5472CA" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#cyanGlow)" opacity="0.46">
+    <path d="M122 248C238 238 344 170 468 200C596 230 686 332 816 310C914 294 986 226 1038 182" stroke="#63F2DF" stroke-width="24" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#blueGlow)" opacity="0.42">
+    <path d="M-40 338C112 384 244 288 380 314C528 342 638 462 784 386C898 326 982 216 1116 126" stroke="#5E73FF" stroke-width="30" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#coralGlow)" opacity="0.4">
+    <path d="M372 404C486 360 602 342 718 368C834 394 952 446 1096 414" stroke="#FF8E6F" stroke-width="22" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.94">
+    <path d="M86 238C202 228 308 160 432 190C560 220 650 322 780 300C878 284 950 216 1002 172" stroke="url(#cyanWave)" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M84 248C200 238 306 170 430 200C558 230 648 332 778 310C876 294 948 226 1000 182" stroke="url(#cyanWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.95"/>
+    <path d="M82 258C198 248 304 180 428 210C556 240 646 342 776 320C874 304 946 236 998 192" stroke="url(#cyanWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.92"/>
+    <path d="M80 268C196 258 302 190 426 220C554 250 644 352 774 330C872 314 944 246 996 202" stroke="url(#cyanWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.88"/>
+    <path d="M78 278C194 268 300 200 424 230C552 260 642 362 772 340C870 324 942 256 994 212" stroke="url(#cyanWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.84"/>
+    <path d="M76 288C192 278 298 210 422 240C550 270 640 372 770 350C868 334 940 266 992 222" stroke="url(#cyanWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.8"/>
+    <path d="M74 298C190 288 296 220 420 250C548 280 638 382 768 360C866 344 938 276 990 232" stroke="url(#cyanWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.74"/>
+    <path d="M72 308C188 298 294 230 418 260C546 290 636 392 766 370C864 354 936 286 988 242" stroke="url(#cyanWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.68"/>
+  </g>
+
+  <g opacity="0.96">
+    <path d="M-56 320C96 366 228 270 364 296C512 324 622 444 768 368C882 308 966 198 1100 108" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M-56 336C96 382 228 286 364 312C512 340 622 460 768 384C882 324 966 214 1100 124" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.94"/>
+    <path d="M-56 352C96 398 228 302 364 328C512 356 622 476 768 400C882 340 966 230 1100 140" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.88"/>
+    <path d="M-56 368C96 414 228 318 364 344C512 372 622 492 768 416C882 356 966 246 1100 156" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.82"/>
+    <path d="M-56 384C96 430 228 334 364 360C512 388 622 508 768 432C882 372 966 262 1100 172" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.76"/>
+    <path d="M-56 400C96 446 228 350 364 376C512 404 622 524 768 448C882 388 966 278 1100 188" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.7"/>
+    <path d="M-56 416C96 462 228 366 364 392C512 420 622 540 768 464C882 404 966 294 1100 204" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.64"/>
+    <path d="M-56 432C96 478 228 382 364 408C512 436 622 556 768 480C882 420 966 310 1100 220" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.58"/>
+    <path d="M-56 448C96 494 228 398 364 424C512 452 622 572 768 496C882 436 966 326 1100 236" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.52"/>
+    <path d="M-56 464C96 510 228 414 364 440C512 468 622 588 768 512C882 452 966 342 1100 252" stroke="url(#blueWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.46"/>
+  </g>
+
+  <g opacity="0.98">
+    <path d="M372 386C486 342 602 324 718 350C834 376 952 428 1096 396" stroke="url(#coralWave)" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M382 400C496 356 612 338 728 364C844 390 962 442 1106 410" stroke="url(#coralWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.94"/>
+    <path d="M392 414C506 370 622 352 738 378C854 404 972 456 1116 424" stroke="url(#coralWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.88"/>
+    <path d="M402 428C516 384 632 366 748 392C864 418 982 470 1126 438" stroke="url(#coralWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.82"/>
+    <path d="M412 442C526 398 642 380 758 406C874 432 992 484 1136 452" stroke="url(#coralWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.76"/>
+    <path d="M422 456C536 412 652 394 768 420C884 446 1002 498 1146 466" stroke="url(#coralWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.7"/>
+    <path d="M432 470C546 426 662 408 778 434C894 460 1012 512 1156 480" stroke="url(#coralWave)" stroke-width="2.8" stroke-linecap="round" opacity="0.64"/>
+  </g>
+
+  <g opacity="0.3">
+    <circle cx="520" cy="164" r="3" fill="#7CB7FF"/>
+    <circle cx="610" cy="120" r="2.2" fill="#97FFF2"/>
+    <circle cx="762" cy="162" r="2.4" fill="#A6B8FF"/>
+    <circle cx="868" cy="288" r="2.4" fill="#FFD1B0"/>
+  </g>
+</svg>
