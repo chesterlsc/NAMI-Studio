@@ -1,0 +1,63 @@
+<svg width="1280" height="340" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="meshBlue" x1="212" y1="242" x2="1054" y2="166" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#192A58" stop-opacity="0"/>
+      <stop offset="0.36" stop-color="#5C72FF"/>
+      <stop offset="0.62" stop-color="#9AD5FF"/>
+      <stop offset="1" stop-color="#203066" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="meshCyan" x1="308" y1="220" x2="938" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17313A" stop-opacity="0"/>
+      <stop offset="0.38" stop-color="#6BE7D7"/>
+      <stop offset="0.72" stop-color="#91FAEE"/>
+      <stop offset="1" stop-color="#17313A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="meshCoral" x1="604" y1="178" x2="1044" y2="126" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40293C" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#FF8C6D"/>
+      <stop offset="0.82" stop-color="#FFC39A"/>
+      <stop offset="1" stop-color="#40293C" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="flare" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(850 126) rotate(90) scale(58 106)">
+      <stop stop-color="#FFB98F"/>
+      <stop offset="0.42" stop-color="#FF8D6D" stop-opacity="0.66"/>
+      <stop offset="1" stop-color="#FF8D6D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="850" cy="126" rx="106" ry="58" fill="url(#flare)" opacity="0.8"/>
+
+  <g opacity="0.26">
+    <path d="M78 262C248 204 358 198 496 220C628 242 760 290 940 248C1060 220 1162 154 1262 126" stroke="#4E5EDB" stroke-width="1.6"/>
+    <path d="M88 272C258 214 368 208 506 230C638 252 770 300 950 258C1070 230 1172 164 1272 136" stroke="#4E5EDB" stroke-width="1.6"/>
+    <path d="M98 282C268 224 378 218 516 240C648 262 780 310 960 268C1080 240 1182 174 1282 146" stroke="#4E5EDB" stroke-width="1.6"/>
+    <path d="M108 292C278 234 388 228 526 250C658 272 790 320 970 278C1090 250 1192 184 1292 156" stroke="#4E5EDB" stroke-width="1.6"/>
+    <path d="M118 302C288 244 398 238 536 260C668 282 800 330 980 288C1100 260 1202 194 1302 166" stroke="#4E5EDB" stroke-width="1.6"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M104 246C264 188 374 182 512 204C644 226 776 274 956 232C1076 204 1178 138 1278 110" stroke="url(#meshBlue)" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M120 258C280 200 390 194 528 216C660 238 792 286 972 244C1092 216 1194 150 1294 122" stroke="url(#meshBlue)" stroke-width="2.4" stroke-linecap="round" opacity="0.84"/>
+    <path d="M136 270C296 212 406 206 544 228C676 250 808 298 988 256C1108 228 1210 162 1310 134" stroke="url(#meshBlue)" stroke-width="2.4" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M186 236C322 196 430 178 554 188C678 198 786 232 920 214C1018 202 1122 162 1222 132" stroke="url(#meshCyan)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M198 246C334 206 442 188 566 198C690 208 798 242 932 224C1030 212 1134 172 1234 142" stroke="url(#meshCyan)" stroke-width="2.2" stroke-linecap="round" opacity="0.76"/>
+    <path d="M210 256C346 216 454 198 578 208C702 218 810 252 944 234C1042 222 1146 182 1246 152" stroke="url(#meshCyan)" stroke-width="2.2" stroke-linecap="round" opacity="0.58"/>
+  </g>
+
+  <g opacity="0.82">
+    <path d="M580 212C696 182 786 170 882 180C978 190 1084 222 1228 190" stroke="url(#meshCoral)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M594 224C710 194 800 182 896 192C992 202 1098 234 1242 202" stroke="url(#meshCoral)" stroke-width="2.2" stroke-linecap="round" opacity="0.66"/>
+  </g>
+
+  <g opacity="0.45">
+    <circle cx="240" cy="236" r="2.2" fill="#6BE7D7"/>
+    <circle cx="364" cy="214" r="2.2" fill="#5C72FF"/>
+    <circle cx="504" cy="214" r="2.2" fill="#82FBEE"/>
+    <circle cx="678" cy="220" r="2.2" fill="#A3B5FF"/>
+    <circle cx="852" cy="180" r="2.4" fill="#FFD1B2"/>
+    <circle cx="1012" cy="182" r="2.2" fill="#6BE7D7"/>
+  </g>
+</svg>
