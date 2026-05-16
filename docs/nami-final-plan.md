@@ -19,18 +19,18 @@
 - [x] Reduce repeated use of "built" across homepage copy.
 - [x] Remove the old sample launch page block from Featured Outputs.
 - [x] Keep the existing Featured Outputs section and output mini cards.
-- [x] Add a stat-led paid campaign proof summary as the final part of Featured Outputs.
-- [x] Keep homepage proof clean, matter-of-fact, and not screenshot-heavy.
-- [x] Link the homepage proof button to the separate proof page.
+- [x] Add a stat-led paid campaign results summary as the final part of Featured Outputs.
+- [x] Keep homepage results clean, matter-of-fact, and not screenshot-heavy.
+- [x] Link the homepage results button to the separate results page.
 - [x] Keep the How the Work Moves section untouched.
 - [x] Refine the closing section copy to be more decisive and action-driven.
 
-## Proof Page
+## Results Page
 
-- [x] Add a static proof route at `proof/index.html`.
-- [x] Add a simple proof page hero and matter-of-fact intro.
-- [x] Create Google Ads and Meta Ads proof sections.
-- [x] Use placeholder proof frames because screenshots are not present yet.
+- [x] Add a static results route at `results/index.html`.
+- [x] Add a simple results page hero and matter-of-fact intro.
+- [x] Create Google Ads and Meta Ads results sections.
+- [x] Use placeholder results frames because screenshots are not present yet.
 - [x] Add TODO comments where final masked screenshots should be inserted.
 - [x] Include masking language so names and sensitive details stay hidden.
 - [x] Add a clear return link back to the homepage.
