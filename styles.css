@@ -896,7 +896,7 @@ h3 {
   box-shadow: 0 0 14px var(--accent-soft);
 }
 
-.proof-summary {
+.results-summary {
   position: relative;
   display: grid;
   gap: 24px;
@@ -914,7 +914,7 @@ h3 {
     0 24px 70px rgba(0, 0, 0, 0.24);
 }
 
-.proof-summary::before {
+.results-summary::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -924,53 +924,52 @@ h3 {
   pointer-events: none;
 }
 
-.proof-summary-head,
-.proof-stat-grid,
-.proof-summary-action {
+.results-summary-head,
+.results-stat-grid,
+.results-summary-action {
   position: relative;
   z-index: 1;
 }
 
-.proof-label,
+.results-label,
 .placeholder-kicker {
   color: var(--cyan);
   font-size: 0.82rem;
   font-weight: 800;
   letter-spacing: 0;
-  text-transform: uppercase;
 }
 
-.proof-summary-head {
+.results-summary-head {
   display: grid;
   gap: 12px;
   max-width: 46rem;
 }
 
-.proof-summary-head h3 {
+.results-summary-head h3 {
   font-size: 3rem;
   letter-spacing: 0;
 }
 
-.proof-summary-head p,
-.proof-note-card p,
-.proof-shell p,
-.proof-placeholder p {
+.results-summary-head p,
+.results-note-card p,
+.results-shell p,
+.results-placeholder p {
   color: var(--muted-strong);
   line-height: 1.55;
 }
 
-.proof-summary-head p {
+.results-summary-head p {
   max-width: 42rem;
   font-size: 1.04rem;
 }
 
-.proof-stat-grid {
+.results-stat-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
 }
 
-.proof-stat {
+.results-stat {
   display: grid;
   gap: 8px;
   min-height: 118px;
@@ -995,7 +994,7 @@ h3 {
   line-height: 1.35;
 }
 
-.proof-summary-action {
+.results-summary-action {
   display: flex;
   justify-content: flex-start;
 }
@@ -1126,7 +1125,7 @@ h3 {
 }
 
 .closing-copy h2 {
-  font-size: clamp(3rem, 2.4vw, 4.8rem);
+  font-size: clamp(3rem, 4.8vw, 4.35rem);
   font-weight: 800;
   line-height: 0.94;
 }
@@ -1170,47 +1169,47 @@ h3 {
   padding-block: 18px 24px;
 }
 
-.proof-hero {
+.results-hero {
   padding-block: clamp(54px, 7vw, 88px);
   border-top: 0;
 }
 
-.proof-shell,
-.proof-note-card,
-.proof-frame-grid,
-.proof-return {
+.results-shell,
+.results-note-card,
+.results-frame-grid,
+.results-return {
   width: var(--frame);
   margin-inline: auto;
 }
 
-.proof-shell {
+.results-shell {
   display: grid;
   gap: 18px;
   max-width: 760px;
   margin-left: max(calc((100vw - var(--frame)) / 2), 0px);
 }
 
-.proof-shell h1 {
+.results-shell h1 {
   max-width: 780px;
   font-size: 5.6rem;
   letter-spacing: 0;
 }
 
-.proof-shell p:not(.proof-label) {
+.results-shell p:not(.results-label) {
   max-width: 42rem;
   font-size: 1.16rem;
 }
 
-.proof-shell .button {
+.results-shell .button {
   width: fit-content;
   margin-top: 10px;
 }
 
-.proof-note-section {
+.results-note-section {
   padding-block: clamp(28px, 3.8vw, 42px);
 }
 
-.proof-note-card {
+.results-note-card {
   max-width: var(--frame);
   padding: 22px 24px;
   border: 1px solid rgba(170, 186, 255, 0.14);
@@ -1218,22 +1217,22 @@ h3 {
   background: rgba(255, 255, 255, 0.025);
 }
 
-.proof-note-card p {
+.results-note-card p {
   max-width: 62rem;
   font-size: 1.02rem;
 }
 
-.proof-gallery-section {
+.results-gallery-section {
   padding-top: clamp(34px, 4.6vw, 56px);
 }
 
-.proof-frame-grid {
+.results-frame-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
 }
 
-.proof-frame {
+.results-frame {
   min-height: 330px;
   overflow: hidden;
   border: 1px solid rgba(152, 166, 232, 0.13);
@@ -1243,7 +1242,7 @@ h3 {
     linear-gradient(120deg, rgba(107, 231, 215, 0.018), rgba(92, 114, 255, 0.022));
 }
 
-.proof-placeholder {
+.results-placeholder {
   display: grid;
   align-content: center;
   gap: 16px;
@@ -1251,7 +1250,7 @@ h3 {
   padding: clamp(22px, 3vw, 30px);
 }
 
-.proof-placeholder h3 {
+.results-placeholder h3 {
   max-width: 16rem;
   font-size: 2.35rem;
   letter-spacing: 0;
@@ -1279,11 +1278,11 @@ h3 {
   width: 58%;
 }
 
-.proof-return-section {
+.results-return-section {
   padding-block: clamp(36px, 5vw, 58px);
 }
 
-.proof-return {
+.results-return {
   display: flex;
   justify-content: center;
 }
@@ -1383,7 +1382,7 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 
-  .proof-stat-grid {
+  .results-stat-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1526,24 +1525,24 @@ button:focus-visible {
   .output-grid,
   .process-grid,
   .ecosystem-grid,
-  .proof-stat-grid,
-  .proof-frame-grid {
+  .results-stat-grid,
+  .results-frame-grid {
     grid-template-columns: 1fr;
   }
 
-  .proof-shell .button {
+  .results-shell .button {
     width: 100%;
   }
 
-  .proof-shell h1 {
+  .results-shell h1 {
     font-size: 4rem;
   }
 
-  .proof-summary-head h3 {
+  .results-summary-head h3 {
     font-size: 2.35rem;
   }
 
-  .proof-placeholder h3 {
+  .results-placeholder h3 {
     font-size: 2rem;
   }
 
@@ -1593,9 +1592,9 @@ button:focus-visible {
   .hero-body,
   .section-copy,
   .feature-copy p,
-  .proof-summary-head p,
-  .proof-note-card p,
-  .proof-shell p:not(.proof-label),
+  .results-summary-head p,
+  .results-note-card p,
+  .results-shell p:not(.results-label),
   .closing-note {
     font-size: 0.98rem;
   }
@@ -1621,13 +1620,13 @@ button:focus-visible {
     padding-inline: 18px;
   }
 
-  .proof-summary,
-  .proof-note-card,
-  .proof-placeholder {
+  .results-summary,
+  .results-note-card,
+  .results-placeholder {
     padding-inline: 18px;
   }
 
-  .proof-shell h1 {
+  .results-shell h1 {
     font-size: 3.25rem;
   }
 
