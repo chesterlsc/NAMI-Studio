@@ -748,8 +748,8 @@ h3 {
 }
 
 .output-mini::before {
-  top: 20px;
-  left: 28px;
+  top: 24px;
+  left: 30px;
 }
 
 .card-arc {
@@ -873,18 +873,18 @@ h3 {
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-  min-height: 126px;
-  padding: 34px 28px 26px;
+  min-height: 142px;
+  padding: 58px 30px 28px;
 }
 
 .output-mini h3 {
-  margin-top: 14px;
+  margin-top: 0;
   font-size: 1.15rem;
   line-height: 1.02;
 }
 
 .output-mini p {
-  margin-top: 0.65rem;
+  margin-top: 0.7rem;
   font-size: 0.98rem;
 }
 
