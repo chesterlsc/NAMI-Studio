@@ -747,6 +747,11 @@ h3 {
   box-shadow: 0 0 24px var(--accent-soft);
 }
 
+.output-mini::before {
+  top: 20px;
+  left: 28px;
+}
+
 .card-arc {
   position: absolute;
   top: 18px;
@@ -868,17 +873,18 @@ h3 {
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-  min-height: 112px;
-  padding: 24px 22px 22px;
+  min-height: 126px;
+  padding: 34px 28px 26px;
 }
 
 .output-mini h3 {
+  margin-top: 14px;
   font-size: 1.15rem;
   line-height: 1.02;
 }
 
 .output-mini p {
-  margin-top: 0.45rem;
+  margin-top: 0.65rem;
   font-size: 0.98rem;
 }
 
