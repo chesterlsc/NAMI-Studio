@@ -54,11 +54,12 @@ NAMI now reads as a digital asset studio that creates:
   - Content Block System
 - Added a clean stat-led paid campaign results block as the last part of Featured Outputs.
 - Added stat callouts for:
-  - Return on ad spend
-  - Leads / purchases
-  - Conversion value
-  - Click-through rate
+  - Return on Ad Spend
+  - Leads / Purchases
+  - Click-Through Rate
+  - Cost per Click
 - Added a button linking to the separate results page.
+- Updated the paid campaign heading to `Attention Into Revenue`.
 
 ### Results Page
 
@@ -66,10 +67,10 @@ NAMI now reads as a digital asset studio that creates:
   `/results/`
 - Created `results/index.html`.
 - Added a simple results page hero and intro copy.
-- Added sections for Google Ads screenshots and Meta Ads screenshots.
-- Added placeholder results frames because final masked screenshots are not currently in the repo.
-- Added TODO comments where final results screenshots should be inserted.
-- Included masking guidance for private names, account details, emails, billing details, campaign IDs, and other sensitive information.
+- Added sections for Google Ads and Meta Ads campaign results.
+- Replaced placeholder results frames with curated campaign result panels.
+- Added campaign image assets for Google Ads CTR/click volume, Google Ads conversions/CPC, and Meta Ads CPC/CTR performance.
+- Included privacy guidance so private names, account details, emails, billing details, campaign IDs, and other sensitive information stay hidden.
 - Added return links back to the homepage.
 
 ### Process Section
@@ -96,11 +97,15 @@ NAMI now reads as a digital asset studio that creates:
 |   |-- nami-header-wave-only.webp
 |   |-- nami-header-wave-exact.svg
 |   |-- nami-hero-wave.svg
-|   `-- nami-footer-mesh.svg
+|   |-- nami-footer-background.png
+|   |-- google-ad-performance-clicks-ctr.png
+|   |-- google-ad-performance-ctr-conversions.png
+|   `-- meta-ad-performance-cpc-ctr.png
 |-- results/
 |   `-- index.html
 |-- docs/
-|   `-- nami-final-plan.md
+|   |-- nami-final-plan.md
+|   `-- eod-may-20-2026.md
 `-- .github/
     `-- workflows/
         `-- jekyll-gh-pages.yml
@@ -117,6 +122,6 @@ Pushing to `main` triggers the GitHub Pages deployment.
 - Keep the hero wave static.
 - Do not reintroduce wave animation.
 - Keep the homepage results block stat-led and clean.
-- Put campaign screenshots on `/results/`, not on the homepage.
-- Mask all names and sensitive details before adding real campaign screenshots.
+- Put campaign result images on `/results/`, not on the homepage.
+- Mask all names and sensitive details before adding or replacing campaign result images.
 - Keep the "how the work moves" copy and structure stable unless a new direction is approved.
