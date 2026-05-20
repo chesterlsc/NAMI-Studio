@@ -104,8 +104,7 @@ NAMI now reads as a digital asset studio that creates:
 |-- results/
 |   `-- index.html
 |-- docs/
-|   |-- nami-final-plan.md
-|   `-- eod-may-20-2026.md
+|   `-- nami-final-plan.md
 `-- .github/
     `-- workflows/
         `-- jekyll-gh-pages.yml
