@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="NAMI Studio">
+  <rect width="64" height="64" rx="8" fill="#020807" />
+  <path
+    d="M16 51V13l32 38V13"
+    fill="none"
+    stroke="#f7fbfb"
+    stroke-width="4.5"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+  />
+  <path
+    d="M16 51V13l32 38V13"
+    fill="none"
+    stroke="#6be7d7"
+    stroke-width="1.2"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+    opacity="0.18"
+  />
+</svg>
