@@ -2,11 +2,6 @@
 
 Static GitHub Pages site for NAMI Studio, a design and marketing studio positioned around websites, campaigns, ads, digital assets, and reusable content systems.
 
-Live site:
-https://chesterlsc.github.io/NAMI-Iteration-1.1/
-
-Repository:
-https://github.com/chesterlsc/NAMI-Iteration-1.1
 
 ## What This Site Is
 
