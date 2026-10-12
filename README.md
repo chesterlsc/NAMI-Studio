@@ -1,121 +1,24 @@
-# NAMI Studio 1.1
+# NAMI Studio
 
-Static GitHub Pages site for NAMI Studio, a design and marketing studio positioned around websites, campaigns, ads, digital assets, and reusable content systems.
+Website for **NAMI Studio**, a design and marketing studio that produces websites, campaign creative, paid-ad assets and reusable content systems.
 
+**Live:** [nami.systems](https://nami.systems)
 
-## What This Site Is
+## What it does
 
-This version is the final refinement pass for the NAMI homepage. The goal was to keep the approved premium direction while making the site clearer, more business-ready, and stronger for SEO.
+- **Positioning homepage.** "Built to Perform." Services are framed around output and results: websites and landing pages, campaign creative, paid social kits and content block systems.
+- **Featured Outputs.** Sample deliverables, ending with a stat-led block on paid campaign performance (ROAS, leads, CTR, CPC).
+- **Campaign Results.** A dedicated [`/results`](results/) page with Google Ads and Meta Ads results. Client names, account details and campaign IDs are redacted.
+- **NAMI Growth Assessment.** A short intake at [`/assessment`](assessment/) for new enquiries.
 
-NAMI now reads as a digital asset studio that creates:
+## Engineering
 
-- Websites and landing pages
-- Campaign creative
-- Paid ad assets
-- Content systems
-- Reusable design blocks for fast output
+Static HTML, CSS and vanilla JavaScript served by GitHub Pages: fast, cheap to host, and easy for the studio to update. Fully responsive.
 
-## What Was Implemented
-
-### Homepage Refinement
-
-- Refined the hero copy while keeping the approved layout direction.
-- Updated the hero headline to `Built to Perform.`
-- Kept the adjusted hero headline sizing so it fits with the approved wave composition.
-- Updated supporting copy to make NAMI feel more direct, business-ready, and performance-aware.
-- Reduced repetitive use of the word "built."
-- Added a subtle performance, outcomes, and profit layer to the service copy.
-- Strengthened the closing section so it feels more decisive and action-driven.
-
-### Static Wave Update
-
-- Replaced the previous hero wave asset with a new right-side wave image:
-  `assets/nami-header-wave-final.png`
-- Matched the hero and header background to the dark wave background.
-- Extended the wave fully to the right edge of the viewport.
-- Shifted the wave into a right-side hero composition based on the provided reference.
-- Kept the wave static with no animation.
-- Removed overlapping hero labels so only the mantra remains on the wave.
-- Positioned the mantra lower-center on the wave:
-  `Make It Clear. Make It Count.`
-
-### Featured Outputs
-
-- Kept the Featured Outputs section.
-- Removed the old conceptual sample launch page block.
-- Kept the output cards for:
-  - Paid Social Kit
-  - Campaign Frame
-  - Content Block System
-- Added a clean stat-led paid campaign results block as the last part of Featured Outputs.
-- Added stat callouts for:
-  - Return on Ad Spend
-  - Leads / Purchases
-  - Click-Through Rate
-  - Cost per Click
-- Added a button linking to the separate results page.
-- Updated the paid campaign heading to `Attention Into Revenue`.
-
-### Results Page
-
-- Added a separate results route:
-  `/results/`
-- Created `results/index.html`.
-- Added a simple results page hero and intro copy.
-- Added sections for Google Ads and Meta Ads campaign results.
-- Replaced placeholder results frames with curated campaign result panels.
-- Added campaign image assets for Google Ads CTR/click volume, Google Ads conversions/CPC, and Meta Ads CPC/CTR performance.
-- Included privacy guidance so private names, account details, emails, billing details, campaign IDs, and other sensitive information stay hidden.
-- Added return links back to the homepage.
-
-### Process Section
-
-- Kept the "how the work moves" section content intact.
-- Fixed the desktop connector arrows between process cards.
-- Hid arrows on smaller screens so they do not point awkwardly when the cards wrap.
-
-### Planning Doc
-
-- Added `docs/nami-final-plan.md`.
-- Documented the final implementation plan and checklist.
-- Marked completed items for homepage, results page, and verification.
-
-## Current File Structure
-
-```text
-.
-|-- index.html
-|-- styles.css
-|-- script.js
-|-- assets/
-|   |-- nami-header-wave-final.png
-|   |-- nami-header-wave-only.webp
-|   |-- nami-header-wave-exact.svg
-|   |-- nami-hero-wave.svg
-|   |-- nami-footer-background.png
-|   |-- google-ad-performance-clicks-ctr.png
-|   |-- google-ad-performance-ctr-conversions.png
-|   `-- meta-ad-performance-cpc-ctr.png
-|-- results/
-|   `-- index.html
-|-- docs/
-|   `-- nami-final-plan.md
-`-- .github/
-    `-- workflows/
-        `-- jekyll-gh-pages.yml
+```bash
+python3 -m http.server 8000   # http://localhost:8000
 ```
 
-## Deployment
+---
 
-The site is deployed through GitHub Pages using the existing Jekyll GitHub Actions workflow.
-
-Pushing to `main` triggers the GitHub Pages deployment.
-
-## Notes For Future Updates
-
-- Keep the hero wave static.
-- Do not reintroduce wave animation.
-- Keep the homepage results block stat-led and clean.
-- Put campaign result images on `/results/`, not on the homepage.
-- Mask all names and sensitive details before adding or replacing campaign result images.
-- Keep the "how the work moves" copy and structure stable unless a new direction is approved.
+Designed and built by [Chester Studio](https://chesterstudio.space).
